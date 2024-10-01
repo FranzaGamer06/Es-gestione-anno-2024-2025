@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <form id="module">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" >
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="surname" >
+        <label for="email">Email:</label>
+        <input type="email" id="email" >
+        <label for="birthDate">Data di nascita</label>
+        <input type="date" id="birthDate" >
+        <label for="celNumber">Numero di telefono</label>
+        <input type="tel" id="celNumber" >
+        <label for="town">Paese</label>
+        <input type="text" id="town" >
+        <label for="Provice">Provincia</label>
+        <input type="text" id="Province" >
+        <button class="btn btn-primary"type="button" onclick="addPerson()">Invia modulo</button>
+    </form>
+    <table id="genoveffo">
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Email</th>
+            <th>numero di cellulare</th>
+            <th>data di nascita</th>
+            <th>citta' di provenienza</th>
+            <th>Provincia di provenienza</th>
+        </tr>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
